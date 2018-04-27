@@ -1,0 +1,145 @@
+<!-- DOCTYPE html-->
+<html>
+
+  <head>
+    <meta charset="utf-8"> <!-- Conjunto de caracteres latino -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Deixa o bosstrap responsivo em mobile devices -->
+    <title>Home</title> <!-- Nome que aparecera na parte de cima do site -->
+    <link href="link do CSS" type="text/css" rel="stylesheet" ><!-- Link para o arquivo que contem o CSS -->
+  </head>
+
+  <body>
+    <div id="Interface">  <!-- Divide a interface do site -->
+      <span>entre textos</span><!-- Separa um bloco dentro de um texto -->
+      <hgroup> </hgroup> <!-- Grupos. Exemplos grupo de titulos(Diferenca semantica) -->
+
+    <header id="cabecalho"></header> <!-- Separacao do cabecalho da pagina -->
+
+    <!-- Simbolos especiais -->{
+      &nbsp;( )
+      &lt;(<)
+      &gt;(>)
+      &le;(<=)
+      &ge;(>=)
+      &copy;(Simbolo de copyright)
+      <!-- Mais pagina 194 -->
+    }
+
+    <h2 style="text-align: center"></h2> <!-- Deixa a palavra no centro da tela -->
+    <wbr> <!-- Quebra de palavra-->
+    <h1></h1> até <h6></h6> <!-- Tags de Títulos(Hierarquia de títulos) -->
+    <p></p> <!-- Indica um paragrafo -->
+
+    <b></b> <!-- Deixa a letra em destaque -->
+    <strong></strong> <!-- Deixa a letra em destaque -->
+    <i></i> <!-- Deixa a letra em italico -->
+    <sup></sup> <!-- Eleva o elemento declarado como x2 -->
+    <sub></sub> <!-- Deixa o elemento abaixo do texto como h2O -->
+    <br> <!-- Pula uma linha -->
+    <hr> <!-- Adiciona uma linha (break) -->
+    <MARQUEE DIRECTION=LEFT>Hi There.</MARQUEE><!-- Faz o objeto ir pasando pela tela -->
+    <hr>
+
+    <blockquote cite="http://">
+      <!-- Usado para citações mais longas -->
+    </blockquote>
+    <q cite=""></q> <!-- Usado para citações mais curtas -->
+    <abbr title=""></abbr> <!-- Usado para abreviacoes -->
+    <cite></cite> <!-- Usado para citações -->
+    <address></address> <!-- Usado para detalhes de contato do autor -->
+
+    <!-- LISTAS -->{
+    <ul><!-- Lista com pontos -->
+      <li>CADA PONTO SEPARADO DENTRO DAS LISTAS</li>
+    </ul>
+    <ol></ol> <!-- Lista Enumerada -->
+
+    <dl><!-- Lista de definição -->
+      <dt></dt> <!-- Usado no termo a ser definido -->
+      <dd></dd> <!-- Usado na definicao do termo -->
+    </dl>
+
+    }
+
+    <!-- TABELAS -->{
+      <table border="2"> <!-- Usado para criar a tabela -->
+        <thead> <!-- Aonde ficam os titulos da tabela -->
+          <tr><!-- Usado para indicar o incio de cada fileira(Table Row) -->
+            <td></td>
+          </tr>
+        </thead>
+        <tbody> <!-- Aonde fica o corpo da tabela -->
+          <tr>
+            <th></th> <!-- Usado para Titulos(Table heading) -->
+            <td></td> <!-- Usado para cada elemento da tabela(Table data) -->
+            <td bgcolor="color"></td> <!-- Coloca cor de fundo a aquela tabela -->
+            <td colspan="Numero"></td> <!-- Separa a quantidade de tabelas nescessarias -->
+            <td rowspan="Numero"></td> <!-- Separa a quantidade de colunas nescessarias -->
+          </tr>
+        </tbody>
+        <tfoot> <!-- Aonde fica o pe(Final) da tabela -->
+          ...
+        </tfoot>
+      </table>
+    }
+
+
+    <!-- LINKS -->{
+      <a href="ENDERECO A SER LINKADO">NOME QUE APARECERA PARA O USUARIO CLICAR</a>
+      <a href="mailto:example@example.com">EMAIL</a> <!-- Manda um email -->
+      <h1 id="menu">Menu</h1>
+      <a href="#menu">Menu</a> <!-- Linka para a mesma pag no local especificado -->
+      <a href="ENDERECO" target="_blank">NOME</a><!-- Abre o link em uma nova pagina -->
+    }
+
+    <!-- IMAGENS -->{
+      <img src="OrigemDaFoto" alt="DescricaoDaFoto" title"InformacaoAoPassarOMouse"> <!-- Adiciona foto -->
+      height=""<!-- Altura da foto -->
+      width=""<!-- Largura da foto -->
+      <figure><!-- Usado para colocar imagens e subtitulos juntos -->
+        <figcaption></figcaption><!-- Subtitulo da foto -->
+      </figure>
+    }
+
+    <!-- FORMUlARIOS -->{
+      <form action="index.html" method="post ou get">
+        <input type="OPCOES" name="" maxlength=""checked="checked"><!-- Essa opcao comeca marcada -->
+        <!-- OPCOES --> =
+        - text = Texto curto
+        - password = Texto bloqueado
+        - radio = Opcoes com uma escolha
+        - checbok = Opcoes com mais de uma escolha
+        - image = Usar uma imagem no botao(src, width, height necessarios)
+        - date = Opcoes com data
+        - email = Opcao para receber e-mail
+        - url = Opcao para receber uma URL
+        - search = Usado para pesquisa no site
+        <input type="password" name="password" pattern=".{5,10}" required title="Must be between 5 and 10"><!-- Senha com tamanho limitado -->
+        <input type="file" name=""><br />     <!-- Fazer o upload de algo -->
+        <input type="submit" value="Upload"> <!-- Precisa usar o metodo post -->
+        <input type="search" name="search" placeholder = "Enter keyword"><!-- Palavras ja adicionadas no campo -->
+        <input type="text" name="email"><!-- Usado para mandar um formulario -->
+        <input type="submit" name="subscribe" value="Subscribe">
+
+        <button <img src="" alt="add" width="" height="">Add></button>
+
+        <textarea name="name" rows="8" cols="80"></textarea><!-- Espaco para usuario escrever -->
+
+        <select name=""> <!-- Lista de opcoes -->
+          <option value="Nome">Nome</option>
+        </select>
+
+        <fieldset><!-- Cria uma linha entre as opcoes -->
+          <legend></legend><!-- Identifica o proposito do formulario -->
+          <label>Email: <br />
+          <input type="text" name="" required><!-- Obriga o campo ser preenchido -->
+          </label>  <br />
+          <label>...</label>... 
+        </fieldset>
+
+      </form>
+    }
+
+    </div>
+  </body>
+</html>
