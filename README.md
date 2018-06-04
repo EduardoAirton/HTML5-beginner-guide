@@ -14,3 +14,6 @@ If you see a code or method here that doesn't work anymore with the current HTML
 
 * **Eduardo Airton** - [GitHub](https://github.com/EduardoAirton) - [Linkedin](https://www.linkedin.com/in/eduardo-airton/)
 
+## Book used 
+[HTML and CSS Book](http://www.htmlandcssbook.com/)
+
