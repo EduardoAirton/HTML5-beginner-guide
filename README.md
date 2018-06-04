@@ -10,10 +10,12 @@ Feel free to send any update
 
 If you see a code or method here that doesn't work anymore with the current HTML5 version or is not a good fit, please submit a pull request to improve this file or consider updating it, thank you!
 
+## Book used 
+[HTML and CSS Book](http://www.htmlandcssbook.com/)
+
 ## Authors
 
 * **Eduardo Airton** - [GitHub](https://github.com/EduardoAirton) - [Linkedin](https://www.linkedin.com/in/eduardo-airton/)
 
-## Book used 
-[HTML and CSS Book](http://www.htmlandcssbook.com/)
+
 
